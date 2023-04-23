@@ -1,0 +1,464 @@
+body {
+    margin: 0px;
+}
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("images/macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Horizontal List */
+
+.horizontal-list {
+    list-style: none;
+    margin-top: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    font-family: sans-serif;
+    margin: 10px 10px;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 1s, text-decoration 5s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+.text-center {
+    text-align: center; 
+}
+
+
+/* My Name */
+
+#my-name {
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+
+/* Social Links */
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px grey;
+}
+
+
+
+/* Sections */
+
+section {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: lightgrey;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+
+
+/* Skills Section */
+
+#skills {
+    height: auto;
+    min-height: 75vh;
+}
+
+.skills-display {
+    width: 70%;
+    /* height: 100px;
+    border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.skill-progress {
+    width: 10rem;
+    height: 2rem;
+    background-color: grey;
+    border-radius: 0.8rem;
+}
+
+.skill-background {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: lightgrey;
+    border-radius: 1.3rem;
+    margin: 50px 50px;
+    box-shadow: -1px 0px 2px 3px grey inset;
+}
+
+.skill-progress>div {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span {
+    display: inline-block;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+    /* box-shadow: 3px 0px 2px 1px grey; */
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+
+/* Progress percentage */
+
+.eighty-five-percent {
+    width: 85%;
+    height: inherit;
+}
+
+
+#skill-progress1 {
+    width: 90%;
+    height: inherit;
+    background-color: chocolate;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-progress1 span {
+    display: inline-block;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#skill-progress2 {
+    width: 80%;
+    height: inherit;
+    background-color: #93738c;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-progress2 span {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#skill-progress3 {
+    width: 70%;
+    height: inherit;
+    background-color: orangered;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-progress3 span {
+    display: inline-block;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#skill-progress4 {
+    width: 65%;
+    height: inherit;
+    background-color: skyblue;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-progress4 span {
+    display: inline-block;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#skill-progress5 {
+    width: 65%;
+    height: inherit;
+    background-color: #0b8176;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-progress5 span {
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+#skill-progress6 {
+    width: 65%;
+    height: inherit;
+    background-color: #93738c;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-progress6 span {
+    display: inline-block;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+
+
+
+/* About Section */
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -100px;
+}
+
+#my-image img {
+    height: 100%;
+    width: 95%;
+    border-radius: 50%;
+    /* padding: 4px;
+    background-color: lightgrey; */
+    border: 4px solid skyblue;
+    box-shadow: 0px 0px 6px 4px black;
+}
+
+#about p {
+    font-size: 18px;
+    margin: 30px 200px;
+    font-family: sans-serif;
+    color: grey;
+    word-spacing: 4px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#about p b {
+    color: #2857a4;
+}
+
+#about p::first-letter {
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    padding-right: 2px;
+}
+
+
+
+/* Experience Section */
+
+#experience {
+    height: 1000px;
+}
+
+.timeline {
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -12.5%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: blue;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n):after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -9.5%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: blue;
+    z-index: 1;
+}
+
+.timeline-divider {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border-left: 5px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+    margin-left: 7px;
+    z-index: 2;
+}
+
+.timeline-traveller i {
+    font-size: 25px;
+}
+
+
+
+/* Contact Section */
+
+#contacts {
+    width: 100%;
+    height: auto;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(18, 119, 159), rgb(4, 4, 136));
+}
+
+#contacts h1, #contacts h1 span {
+    color: white;
+}
+
+#contact-container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact-form {
+    width: 70%;
+    margin: 10px 10px 10px 200px;
+}
+
+#contact-form label {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#contact-form input, textarea {
+    width: 80%;
+    height: 20%;
+    margin-bottom: 7px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+::placeholder {
+    color: grey;
+}
+
+#contact-form input[type="submit"] {
+    border: 2px solid white;
+}
+
+#contact-form form input:last-child {
+    width: 40%;
+    margin-left: 22%;
+    border-radius: 4px;
+}
+
+#contact-form form input:last-child:hover {
+    color: rgb(18, 119, 159);
+    background-color: white;
+}
+
+#about-me-container {
+    color: white;
+    font-family: sans-serif;
+}
+
+#about-me-container p {
+    margin-left: 10px;
+}
+
+#about-me-container div {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.my-details-info-container i {
+    margin-right: 6px;
+}
