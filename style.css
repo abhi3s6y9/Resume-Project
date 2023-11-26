@@ -462,3 +462,8 @@ section:nth-child(2n + 1) {
 .my-details-info-container i {
     margin-right: 6px;
 }
+
+/* Property applied on html tag (or represented by * as well) for smooth scroll */
+/* * {
+    scroll-behavior: smooth !important;
+} */
