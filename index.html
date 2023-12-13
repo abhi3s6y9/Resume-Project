@@ -34,16 +34,36 @@
 
     <main>
 
+
         <section id="about">
 
             <div id="my-image">
                 <img src="images/my_image.jpg" alt="My Photo">
             </div>
-            <p> 
-                Lorem Ipsum is simply dummy text of the printing and <b>typesetting industry</b>. Lorem Ipsum has been the industry's standard <b>dummy text ever</b> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <b>with the release of Letraset</b> sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p id="first-para"> 
+                Hello there! This is an interactive website to showcase my resume and all the fun stuff I've done in web development. I have used below technologies throughout my journey of <b>Full stack web development</b> learning.
+            </p>
+                <ul type="square">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Ajax</li>
+                </ul>
+                <p>Below are the backend technologies that I &apos ve learnt:</p>
+                <ul type="square">
+                    <li>Nodejs</li>
+                    <li>Expressjs</li>
+                    <li>Passportjs</li>
+                    <li>Mongodb</li>
+                </ul>
+                <br>
+            <p>
+                I have a bit of Machine Learning knowledge as well which I had learnt in college and did some projects with it.
             </p>
             
         </section>
+
 
         <section id="skills">
 
@@ -54,11 +74,11 @@
                 <span>SKILLS</span>
             </h1>
 
-            <div class = "skills-display">
+            <div id="skills-container" class="skills-display">
 
                 <div class="skill-progress skill-background">
 
-                    <div class="eighty-five-percent mb-blue">
+                    <div class="eighty-five-percent mb-blue" data-bar-width="85">
 
                         <div class="skill-name">
                             <span> C++ </span>
@@ -70,7 +90,7 @@
 
                 <div class="skill-background">
 
-                    <div id="skill-progress1">
+                    <div id="skill-progress1" data-bar-width="90">
                         <span>Java</span>
                     </div>
 
@@ -78,7 +98,7 @@
 
                 <div class="skill-background">
 
-                    <div id="skill-progress2">
+                    <div id="skill-progress2" data-bar-width="80">
                         <span>Machine Learning</span>
                     </div>
 
@@ -86,7 +106,7 @@
 
                 <div class="skill-background">
 
-                    <div id="skill-progress3">
+                    <div id="skill-progress3" data-bar-width="70">
                         <span>HTML</span>
                     </div>
 
@@ -94,7 +114,7 @@
 
                 <div class="skill-background">
 
-                    <div id="skill-progress4">
+                    <div id="skill-progress4" data-bar-width="65">
                         <span>CSS</span>
                     </div>
 
@@ -102,7 +122,7 @@
 
                 <div class="skill-background">
 
-                    <div id="skill-progress5">
+                    <div id="skill-progress5" data-bar-width="65">
                         <span>JavaScript</span>
                     </div>
 
@@ -110,7 +130,7 @@
 
                 <div class="skill-background">
 
-                    <div id="skill-progress6">
+                    <div id="skill-progress6" data-bar-width="65">
                         <span>PHP</span>
                     </div>
 
@@ -119,6 +139,7 @@
             </div>
 
         </section>
+
 
         <section id="experience">
 
@@ -224,7 +245,8 @@
 
     </main>
 
-    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+    <script src="skill.js"></script>
 
 </body>
 </html>

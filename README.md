@@ -22,3 +22,6 @@ The website was built using the following resources:
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 
+## Hosted Link
+
+[Resume Link](https://abhi3s6y9.github.io/Resume-Project/)

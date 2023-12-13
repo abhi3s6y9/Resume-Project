@@ -1,3 +1,9 @@
+// To go to the top when we refresh our web page
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
+
+
 var navMenuAnchorTags = document.querySelectorAll('.nav-menu a');
 
 // For clearInterval function to use, we have to create interval variable in the global scope
